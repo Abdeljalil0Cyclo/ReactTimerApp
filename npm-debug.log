@@ -1,0 +1,977 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.5.0/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.5.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'karma-script-launcher',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of /home/ubuntu/workspace/ReactTimerApp/package.json
+5 warn package.json timerApp@1.0.0 No repository field.
+6 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/abbrev/package.json
+7 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/accepts/package.json
+8 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/acorn/package.json
+9 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/after/package.json
+10 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ajv/package.json
+11 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/align-text/package.json
+12 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/alphanum-sort/package.json
+13 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/amdefine/package.json
+14 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ansi-gray/package.json
+15 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ansi-regex/package.json
+16 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ansi-styles/package.json
+17 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ansi-wrap/package.json
+18 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/anymatch/package.json
+19 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/aproba/package.json
+20 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/are-we-there-yet/package.json
+21 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/argparse/package.json
+22 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/arr-diff/package.json
+23 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/arr-flatten/package.json
+24 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/array-differ/package.json
+25 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/array-find-index/package.json
+26 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/array-flatten/package.json
+27 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/array-slice/package.json
+28 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/array-uniq/package.json
+29 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/array-unique/package.json
+30 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/arraybuffer.slice/package.json
+31 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/asap/package.json
+32 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/asn1/package.json
+33 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/assert/package.json
+34 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/assert-plus/package.json
+35 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ast-types/package.json
+36 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/async/package.json
+37 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/async-each/package.json
+38 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/async-foreach/package.json
+39 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/asynckit/package.json
+40 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/autoprefixer/package.json
+41 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/aws-sign2/package.json
+42 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/aws4/package.json
+43 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/axios/package.json
+44 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-code-frame/package.json
+45 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-core/package.json
+46 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-generator/package.json
+47 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-helper-bindify-decorators/package.json
+48 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-helper-builder-binary-assignment-operator-visitor/package.json
+49 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-helper-builder-react-jsx/package.json
+50 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-helper-call-delegate/package.json
+51 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-helper-define-map/package.json
+52 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-helper-explode-assignable-expression/package.json
+53 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-helper-explode-class/package.json
+54 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-helper-function-name/package.json
+55 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-helper-get-function-arity/package.json
+56 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-helper-hoist-variables/package.json
+57 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-helper-optimise-call-expression/package.json
+58 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-helper-regex/package.json
+59 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-helper-remap-async-to-generator/package.json
+60 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-helper-replace-supers/package.json
+61 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-helpers/package.json
+62 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-loader/package.json
+63 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-messages/package.json
+64 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-check-es2015-constants/package.json
+65 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-syntax-async-functions/package.json
+66 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-syntax-async-generators/package.json
+67 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-syntax-class-constructor-call/package.json
+68 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-syntax-class-properties/package.json
+69 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-syntax-decorators/package.json
+70 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-syntax-do-expressions/package.json
+71 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-syntax-dynamic-import/package.json
+72 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-syntax-exponentiation-operator/package.json
+73 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-syntax-export-extensions/package.json
+74 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-syntax-flow/package.json
+75 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-syntax-function-bind/package.json
+76 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-syntax-jsx/package.json
+77 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-syntax-object-rest-spread/package.json
+78 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-syntax-trailing-function-commas/package.json
+79 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-async-generator-functions/package.json
+80 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-async-to-generator/package.json
+81 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-class-constructor-call/package.json
+82 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-class-properties/package.json
+83 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-decorators/package.json
+84 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-do-expressions/package.json
+85 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-arrow-functions/package.json
+86 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-block-scoped-functions/package.json
+87 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-block-scoping/package.json
+88 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-classes/package.json
+89 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-computed-properties/package.json
+90 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-destructuring/package.json
+91 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-duplicate-keys/package.json
+92 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-for-of/package.json
+93 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-function-name/package.json
+94 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-literals/package.json
+95 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-modules-amd/package.json
+96 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-modules-commonjs/package.json
+97 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-modules-systemjs/package.json
+98 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-modules-umd/package.json
+99 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-object-super/package.json
+100 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-parameters/package.json
+101 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-shorthand-properties/package.json
+102 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-spread/package.json
+103 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-sticky-regex/package.json
+104 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-template-literals/package.json
+105 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-typeof-symbol/package.json
+106 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-es2015-unicode-regex/package.json
+107 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-exponentiation-operator/package.json
+108 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-export-extensions/package.json
+109 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-flow-strip-types/package.json
+110 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-function-bind/package.json
+111 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-object-rest-spread/package.json
+112 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-react-display-name/package.json
+113 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-react-jsx/package.json
+114 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-react-jsx-self/package.json
+115 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-react-jsx-source/package.json
+116 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-regenerator/package.json
+117 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-plugin-transform-strict-mode/package.json
+118 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-preset-env/package.json
+119 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-preset-es2015/package.json
+120 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-preset-flow/package.json
+121 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-preset-react/package.json
+122 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-preset-stage-0/package.json
+123 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-preset-stage-1/package.json
+124 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-preset-stage-2/package.json
+125 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-preset-stage-3/package.json
+126 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-register/package.json
+127 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-runtime/package.json
+128 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-template/package.json
+129 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-traverse/package.json
+130 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babel-types/package.json
+131 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/babylon/package.json
+132 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/backo2/package.json
+133 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/balanced-match/package.json
+134 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/base62/package.json
+135 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/base64-arraybuffer/package.json
+136 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/base64-js/package.json
+137 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/base64id/package.json
+138 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/batch/package.json
+139 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/bcrypt-pbkdf/package.json
+140 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/beeper/package.json
+141 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/better-assert/package.json
+142 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/big.js/package.json
+143 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/binary-extensions/package.json
+144 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/blob/package.json
+145 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/block-stream/package.json
+146 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/bluebird/package.json
+147 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/body-parser/package.json
+148 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/boom/package.json
+149 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/brace-expansion/package.json
+150 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/braces/package.json
+151 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/browserify-aes/package.json
+152 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/browserify-zlib/package.json
+153 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/browserslist/package.json
+154 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/buffer/package.json
+155 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/builtin-modules/package.json
+156 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/builtin-status-codes/package.json
+157 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/bytes/package.json
+158 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/callsite/package.json
+159 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/camelcase/package.json
+160 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/camelcase-keys/package.json
+161 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/caniuse-api/package.json
+162 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/caniuse-db/package.json
+163 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/caniuse-lite/package.json
+164 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/caseless/package.json
+165 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/center-align/package.json
+166 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/chalk/package.json
+167 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/chokidar/package.json
+168 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/clap/package.json
+169 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/cliui/package.json
+170 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/clone/package.json
+171 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/clone-deep/package.json
+172 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/clone-stats/package.json
+173 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/co/package.json
+174 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/coa/package.json
+175 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/code-point-at/package.json
+176 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/color/package.json
+177 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/color-convert/package.json
+178 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/color-name/package.json
+179 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/color-string/package.json
+180 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/colormin/package.json
+181 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/colors/package.json
+182 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/combined-stream/package.json
+183 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/commander/package.json
+184 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/commondir/package.json
+185 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/commoner/package.json
+186 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/component-bind/package.json
+187 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/component-emitter/package.json
+188 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/component-inherit/package.json
+189 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/concat-map/package.json
+190 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/concat-with-sourcemaps/package.json
+191 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/connect/package.json
+192 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/console-browserify/package.json
+193 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/console-control-strings/package.json
+194 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/constants-browserify/package.json
+195 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/content-disposition/package.json
+196 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/content-type/package.json
+197 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/convert-source-map/package.json
+198 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/cookie/package.json
+199 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/cookie-signature/package.json
+200 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/core-js/package.json
+201 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/core-util-is/package.json
+202 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/cross-spawn/package.json
+203 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/cryptiles/package.json
+204 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/crypto-browserify/package.json
+205 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/css-color-names/package.json
+206 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/css-loader/package.json
+207 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/css-selector-tokenizer/package.json
+208 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/cssesc/package.json
+209 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/cssnano/package.json
+210 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/csso/package.json
+211 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/currently-unhandled/package.json
+212 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/custom-event/package.json
+213 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/dashdash/package.json
+214 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/date-now/package.json
+215 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/dateformat/package.json
+216 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/debug/package.json
+217 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/decamelize/package.json
+218 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/deep-equal/package.json
+219 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/define-properties/package.json
+220 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/defined/package.json
+221 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/delayed-stream/package.json
+222 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/delegates/package.json
+223 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/depd/package.json
+224 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/destroy/package.json
+225 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/detect-indent/package.json
+226 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/detective/package.json
+227 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/di/package.json
+228 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/diff/package.json
+229 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/dom-serialize/package.json
+230 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/domain-browser/package.json
+231 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/duplexer2/package.json
+232 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ecc-jsbn/package.json
+233 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ee-first/package.json
+234 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/electron-to-chromium/package.json
+235 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/emojis-list/package.json
+236 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/encodeurl/package.json
+237 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/engine.io/package.json
+238 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/engine.io-client/package.json
+239 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/engine.io-parser/package.json
+240 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/enhanced-resolve/package.json
+241 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ent/package.json
+242 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/envify/package.json
+243 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/errno/package.json
+244 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/error-ex/package.json
+245 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/es-abstract/package.json
+246 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/es-to-primitive/package.json
+247 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/escape-html/package.json
+248 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/escape-string-regexp/package.json
+249 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/esprima-fb/package.json
+250 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/esutils/package.json
+251 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/etag/package.json
+252 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/eventemitter3/package.json
+253 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/events/package.json
+254 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/expand-braces/package.json
+255 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/expand-brackets/package.json
+256 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/expand-range/package.json
+257 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/expect/package.json
+258 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/express/package.json
+259 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/extend/package.json
+260 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/extglob/package.json
+261 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/extsprintf/package.json
+262 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/fancy-log/package.json
+263 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/fast-deep-equal/package.json
+264 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/fast-json-stable-stringify/package.json
+265 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/fastparse/package.json
+266 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/fbjs/package.json
+267 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/filename-regex/package.json
+268 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/fill-range/package.json
+269 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/finalhandler/package.json
+270 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/find-cache-dir/package.json
+271 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/find-up/package.json
+272 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/flatten/package.json
+273 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/follow-redirects/package.json
+274 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/for-in/package.json
+275 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/for-own/package.json
+276 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/foreach/package.json
+277 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/forever-agent/package.json
+278 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/form-data/package.json
+279 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/forwarded/package.json
+280 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/foundation-sites/package.json
+281 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/fresh/package.json
+282 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/fs-access/package.json
+283 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/fs.realpath/package.json
+284 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/fstream/package.json
+285 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/function-bind/package.json
+286 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/gauge/package.json
+287 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/gaze/package.json
+288 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/generate-function/package.json
+289 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/generate-object-property/package.json
+290 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/get-caller-file/package.json
+291 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/get-stdin/package.json
+292 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/getpass/package.json
+293 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/glob/package.json
+294 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/glob-base/package.json
+295 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/glob-parent/package.json
+296 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/globals/package.json
+297 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/globule/package.json
+298 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/glogg/package.json
+299 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/graceful-fs/package.json
+300 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/growl/package.json
+301 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/gulp-header/package.json
+302 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/gulp-util/package.json
+303 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/gulplog/package.json
+304 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/har-schema/package.json
+305 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/har-validator/package.json
+306 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/has/package.json
+307 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/has-ansi/package.json
+308 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/has-binary/package.json
+309 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/has-cors/package.json
+310 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/has-flag/package.json
+311 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/has-gulplog/package.json
+312 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/has-unicode/package.json
+313 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/hawk/package.json
+314 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/history/package.json
+315 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/hoek/package.json
+316 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/hoist-non-react-statics/package.json
+317 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/home-or-tmp/package.json
+318 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/hosted-git-info/package.json
+319 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/html-comment-regex/package.json
+320 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/http-errors/package.json
+321 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/http-proxy/package.json
+322 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/http-signature/package.json
+323 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/https-browserify/package.json
+324 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/iconv-lite/package.json
+325 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/icss-replace-symbols/package.json
+326 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ieee754/package.json
+327 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/in-publish/package.json
+328 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/indent-string/package.json
+329 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/indexes-of/package.json
+330 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/indexof/package.json
+331 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/inflight/package.json
+332 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/inherits/package.json
+333 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/interpret/package.json
+334 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/invariant/package.json
+335 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/invert-kv/package.json
+336 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ipaddr.js/package.json
+337 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-absolute-url/package.json
+338 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-arrayish/package.json
+339 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-arrow-function/package.json
+340 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-binary-path/package.json
+341 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-boolean-object/package.json
+342 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-buffer/package.json
+343 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-builtin-module/package.json
+344 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-callable/package.json
+345 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-date-object/package.json
+346 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-dotfile/package.json
+347 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-equal/package.json
+348 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-equal-shallow/package.json
+349 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-extendable/package.json
+350 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-extglob/package.json
+351 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-finite/package.json
+352 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-fullwidth-code-point/package.json
+353 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-generator-function/package.json
+354 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-glob/package.json
+355 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-my-json-valid/package.json
+356 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-number/package.json
+357 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-number-object/package.json
+358 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-plain-obj/package.json
+359 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-plain-object/package.json
+360 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-posix-bracket/package.json
+361 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-primitive/package.json
+362 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-property/package.json
+363 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-regex/package.json
+364 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-string/package.json
+365 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-svg/package.json
+366 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-symbol/package.json
+367 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-typedarray/package.json
+368 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/is-utf8/package.json
+369 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/isarray/package.json
+370 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/isbinaryfile/package.json
+371 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/isexe/package.json
+372 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/isobject/package.json
+373 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/isstream/package.json
+374 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/jade/package.json
+375 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/jquery/package.json
+376 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/js-base64/package.json
+377 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/js-tokens/package.json
+378 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/js-yaml/package.json
+379 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/jsbn/package.json
+380 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/jsesc/package.json
+381 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/json-schema/package.json
+382 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/json-schema-traverse/package.json
+383 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/json-stringify-safe/package.json
+384 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/json3/package.json
+385 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/json5/package.json
+386 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/jsonpointer/package.json
+387 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/jsprim/package.json
+388 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/jstransform/package.json
+389 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/karma/package.json
+390 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-chrome-launcher/package.json
+391 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-mocha/package.json
+392 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-mocha-reporter/package.json
+393 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-sourcemap-loader/package.json
+394 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-webpack/package.json
+395 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/kind-of/package.json
+396 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lazy-cache/package.json
+397 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lcid/package.json
+398 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/load-json-file/package.json
+399 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/loader-utils/package.json
+400 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash/package.json
+401 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash._basecopy/package.json
+402 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash._basetostring/package.json
+403 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash._basevalues/package.json
+404 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash._createcompounder/package.json
+405 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash._getnative/package.json
+406 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash._isiterateecall/package.json
+407 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash._reescape/package.json
+408 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash._reevaluate/package.json
+409 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash._reinterpolate/package.json
+410 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash._root/package.json
+411 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.assign/package.json
+412 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.camelcase/package.json
+413 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.clonedeep/package.json
+414 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.deburr/package.json
+415 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.escape/package.json
+416 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.isarguments/package.json
+417 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.isarray/package.json
+418 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.keys/package.json
+419 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.memoize/package.json
+420 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.mergewith/package.json
+421 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.restparam/package.json
+422 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.tail/package.json
+423 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.template/package.json
+424 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.templatesettings/package.json
+425 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.uniq/package.json
+426 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lodash.words/package.json
+427 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/log-symbols/package.json
+428 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/log4js/package.json
+429 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/longest/package.json
+430 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/loose-envify/package.json
+431 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/loud-rejection/package.json
+432 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/lru-cache/package.json
+433 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/macaddress/package.json
+434 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/map-obj/package.json
+435 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/math-expression-evaluator/package.json
+436 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/media-typer/package.json
+437 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/memory-fs/package.json
+438 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/meow/package.json
+439 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/merge-descriptors/package.json
+440 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/methods/package.json
+441 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/micromatch/package.json
+442 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/mime/package.json
+443 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/mime-db/package.json
+444 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/mime-types/package.json
+445 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/minimatch/package.json
+446 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/minimist/package.json
+447 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/mixin-object/package.json
+448 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/mkdirp/package.json
+449 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/mocha/package.json
+450 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ms/package.json
+451 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/multipipe/package.json
+452 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/nan/package.json
+453 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/negotiator/package.json
+454 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/node-gyp/package.json
+455 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/node-libs-browser/package.json
+456 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/node-sass/package.json
+457 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/nopt/package.json
+458 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/normalize-package-data/package.json
+459 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/normalize-path/package.json
+460 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/normalize-range/package.json
+461 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/normalize-url/package.json
+462 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/npmlog/package.json
+463 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/null-check/package.json
+464 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/num2fraction/package.json
+465 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/number-is-nan/package.json
+466 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/oauth-sign/package.json
+467 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/object-assign/package.json
+468 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/object-component/package.json
+469 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/object-inspect/package.json
+470 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/object-keys/package.json
+471 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/object.entries/package.json
+472 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/object.omit/package.json
+473 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/on-finished/package.json
+474 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/once/package.json
+475 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/optimist/package.json
+476 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/options/package.json
+477 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/os-browserify/package.json
+478 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/os-homedir/package.json
+479 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/os-locale/package.json
+480 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/os-tmpdir/package.json
+481 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/osenv/package.json
+482 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/pako/package.json
+483 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/parse-glob/package.json
+484 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/parse-json/package.json
+485 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/parsejson/package.json
+486 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/parseqs/package.json
+487 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/parseuri/package.json
+488 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/parseurl/package.json
+489 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/path-browserify/package.json
+490 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/path-exists/package.json
+491 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/path-is-absolute/package.json
+492 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/path-to-regexp/package.json
+493 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/path-type/package.json
+494 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/pbkdf2-compat/package.json
+495 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/performance-now/package.json
+496 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/pify/package.json
+497 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/pinkie/package.json
+498 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/pinkie-promise/package.json
+499 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/pkg-dir/package.json
+500 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss/package.json
+501 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-calc/package.json
+502 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-colormin/package.json
+503 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-convert-values/package.json
+504 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-discard-comments/package.json
+505 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-discard-duplicates/package.json
+506 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-discard-empty/package.json
+507 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-discard-overridden/package.json
+508 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-discard-unused/package.json
+509 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-filter-plugins/package.json
+510 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-merge-idents/package.json
+511 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-merge-longhand/package.json
+512 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-merge-rules/package.json
+513 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-message-helpers/package.json
+514 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-minify-font-values/package.json
+515 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-minify-gradients/package.json
+516 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-minify-params/package.json
+517 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-minify-selectors/package.json
+518 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-modules-extract-imports/package.json
+519 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-modules-local-by-default/package.json
+520 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-modules-scope/package.json
+521 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-modules-values/package.json
+522 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-normalize-charset/package.json
+523 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-normalize-url/package.json
+524 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-ordered-values/package.json
+525 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-reduce-idents/package.json
+526 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-reduce-initial/package.json
+527 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-reduce-transforms/package.json
+528 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-selector-parser/package.json
+529 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-svgo/package.json
+530 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-unique-selectors/package.json
+531 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-value-parser/package.json
+532 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/postcss-zindex/package.json
+533 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/prepend-http/package.json
+534 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/preserve/package.json
+535 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/private/package.json
+536 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/process/package.json
+537 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/process-nextick-args/package.json
+538 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/promise/package.json
+539 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/proxy-addr/package.json
+540 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/prr/package.json
+541 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/pseudomap/package.json
+542 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/punycode/package.json
+543 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/q/package.json
+544 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/qs/package.json
+545 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/query-string/package.json
+546 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/querystring/package.json
+547 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/querystring-es3/package.json
+548 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/randomatic/package.json
+549 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/range-parser/package.json
+550 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/raw-body/package.json
+551 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/raw-loader/package.json
+552 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/react/package.json
+553 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/react-dom/package.json
+554 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/react-router/package.json
+555 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/read-pkg/package.json
+556 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/read-pkg-up/package.json
+557 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/readable-stream/package.json
+558 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/readdirp/package.json
+559 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/recast/package.json
+560 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/redent/package.json
+561 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/reduce-css-calc/package.json
+562 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/reduce-function-call/package.json
+563 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/regenerate/package.json
+564 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/regenerator-runtime/package.json
+565 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/regenerator-transform/package.json
+566 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/regex-cache/package.json
+567 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/regexpu-core/package.json
+568 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/regjsgen/package.json
+569 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/regjsparser/package.json
+570 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/remove-trailing-separator/package.json
+571 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/repeat-element/package.json
+572 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/repeat-string/package.json
+573 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/repeating/package.json
+574 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/replace-ext/package.json
+575 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/request/package.json
+576 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/request-promise/package.json
+577 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/request-promise-core/package.json
+578 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/require-directory/package.json
+579 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/require-main-filename/package.json
+580 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/requires-port/package.json
+581 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/right-align/package.json
+582 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/rimraf/package.json
+583 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ripemd160/package.json
+584 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/safe-buffer/package.json
+585 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/sass-graph/package.json
+586 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/sass-loader/package.json
+587 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/sax/package.json
+588 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/script-loader/package.json
+589 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/scss-tokenizer/package.json
+590 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/semver/package.json
+591 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/send/package.json
+592 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/serve-static/package.json
+593 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/set-blocking/package.json
+594 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/set-immediate-shim/package.json
+595 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/setimmediate/package.json
+596 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/setprototypeof/package.json
+597 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/sha.js/package.json
+598 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/shallow-clone/package.json
+599 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/sigmund/package.json
+600 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/signal-exit/package.json
+601 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/slash/package.json
+602 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/sntp/package.json
+603 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/socket.io/package.json
+604 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/socket.io-adapter/package.json
+605 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/socket.io-client/package.json
+606 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/socket.io-parser/package.json
+607 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/sort-keys/package.json
+608 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/source-list-map/package.json
+609 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/source-map/package.json
+610 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/source-map-support/package.json
+611 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/sparkles/package.json
+612 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/spdx-correct/package.json
+613 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/spdx-expression-parse/package.json
+614 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/spdx-license-ids/package.json
+615 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/sprintf-js/package.json
+616 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/sshpk/package.json
+617 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/statuses/package.json
+618 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/stdout-stream/package.json
+619 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/stealthy-require/package.json
+620 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/stream-browserify/package.json
+621 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/stream-http/package.json
+622 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/strict-uri-encode/package.json
+623 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/string-width/package.json
+624 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/string_decoder/package.json
+625 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/stringstream/package.json
+626 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/strip-ansi/package.json
+627 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/strip-bom/package.json
+628 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/strip-indent/package.json
+629 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/style-loader/package.json
+630 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/supports-color/package.json
+631 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/svgo/package.json
+632 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/tapable/package.json
+633 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/tar/package.json
+634 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/through/package.json
+635 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/through2/package.json
+636 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/time-stamp/package.json
+637 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/timers-browserify/package.json
+638 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/tmatch/package.json
+639 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/tmp/package.json
+640 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/to-array/package.json
+641 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/to-arraybuffer/package.json
+642 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/to-fast-properties/package.json
+643 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/to-iso-string/package.json
+644 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/tough-cookie/package.json
+645 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/trim-newlines/package.json
+646 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/trim-right/package.json
+647 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/true-case-path/package.json
+648 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/tty-browserify/package.json
+649 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/tunnel-agent/package.json
+650 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/tweetnacl/package.json
+651 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/type-is/package.json
+652 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ua-parser-js/package.json
+653 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/uglify-js/package.json
+654 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/uglify-to-browserify/package.json
+655 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ultron/package.json
+656 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/uniq/package.json
+657 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/uniqid/package.json
+658 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/uniqs/package.json
+659 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/unpipe/package.json
+660 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/url/package.json
+661 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/useragent/package.json
+662 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/util/package.json
+663 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/util-deprecate/package.json
+664 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/utils-merge/package.json
+665 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/uuid/package.json
+666 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/validate-npm-package-license/package.json
+667 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/vary/package.json
+668 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/vendors/package.json
+669 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/verror/package.json
+670 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/vinyl/package.json
+671 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/vm-browserify/package.json
+672 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/void-elements/package.json
+673 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/warning/package.json
+674 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/watchpack/package.json
+675 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/webpack/package.json
+676 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/webpack-core/package.json
+677 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/webpack-dev-middleware/package.json
+678 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/what-input/package.json
+679 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/whatwg-fetch/package.json
+680 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/whet.extend/package.json
+681 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/which/package.json
+682 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/which-module/package.json
+683 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/wide-align/package.json
+684 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/window-size/package.json
+685 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/wordwrap/package.json
+686 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/wrap-ansi/package.json
+687 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/wrappy/package.json
+688 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/ws/package.json
+689 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/wtf-8/package.json
+690 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/xmlhttprequest-ssl/package.json
+691 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/xtend/package.json
+692 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/y18n/package.json
+693 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/yallist/package.json
+694 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/yargs/package.json
+695 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/yargs-parser/package.json
+696 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/ReactTimerApp/node_modules/yeast/package.json
+697 info package.json core-js@1.2.7 No README data
+698 info package.json expect@1.20.2 No README data
+699 info package.json history@2.1.2 No README data
+700 info package.json jade@0.26.3 No README data
+701 info package.json jade@0.26.3 No license field.
+702 info package.json jsesc@1.3.0 No README data
+703 info package.json mocha@2.5.3 No README data
+704 info package.json setimmediate@1.0.5 No README data
+705 info package.json ansi-wrap@0.1.0 license should be a valid SPDX license expression
+706 info package.json array-unique@0.2.1 license should be a valid SPDX license expression
+707 info package.json array-slice@0.2.3 license should be a valid SPDX license expression
+708 info package.json assert@1.4.1 assert is also the name of a node core module.
+709 info package.json arraybuffer.slice@0.0.6 No license field.
+710 info package.json async-foreach@0.1.3 No license field.
+711 info package.json base64-arraybuffer@0.1.5 No license field.
+712 info package.json batch@0.5.3 No license field.
+713 info package.json blob@0.0.4 No license field.
+714 info package.json better-assert@1.0.2 No license field.
+715 info package.json bcrypt-pbkdf@1.0.1 No repository field.
+716 info package.json buffer@4.9.1 buffer is also the name of a node core module.
+717 info package.json callsite@1.0.0 No repository field.
+718 info package.json callsite@1.0.0 No license field.
+719 info package.json coa@1.0.4 No license field.
+720 info package.json console-browserify@1.1.0 No license field.
+721 info package.json component-bind@1.0.0 No license field.
+722 info package.json component-inherit@0.0.3 No license field.
+723 info package.json component-emitter@1.1.2 No license field.
+724 info package.json date-now@0.1.4 No license field.
+725 info package.json cssesc@0.1.0 No license field.
+726 info package.json duplexer2@0.0.2 license should be a valid SPDX license expression
+727 info package.json diff@1.4.0 No license field.
+728 info package.json enhanced-resolve@0.9.1 No license field.
+729 info package.json events@1.1.1 events is also the name of a node core module.
+730 info package.json esutils@2.0.2 No license field.
+731 info package.json esprima-fb@15001.1.0-dev-harmony-fb No license field.
+732 info package.json glob-base@0.3.0 license should be a valid SPDX license expression
+733 info package.json has-binary@0.1.7 No repository field.
+734 info package.json has@1.0.1 No license field.
+735 info package.json hoist-non-react-statics@1.2.0 No license field.
+736 info package.json indexof@0.0.1 No repository field.
+737 info package.json indexof@0.0.1 No license field.
+738 info package.json is-primitive@2.0.0 license should be a valid SPDX license expression
+739 info package.json json3@3.3.2 No license field.
+740 info package.json json-schema@0.2.3 No license field.
+741 info package.json longest@1.0.1 license should be a valid SPDX license expression
+742 info package.json lru-cache@2.2.4 license should be a valid SPDX license expression
+743 info package.json optimist@0.6.1 license should be a valid SPDX license expression
+744 info package.json object-component@0.0.3 No repository field.
+745 info package.json object-component@0.0.3 No license field.
+746 info package.json options@0.0.6 No license field.
+747 info package.json process@0.11.10 process is also the name of a node core module.
+748 info package.json punycode@1.4.1 punycode is also the name of a node core module.
+749 info package.json preserve@0.2.0 license should be a valid SPDX license expression
+750 info package.json querystring-es3@0.2.1 No license field.
+751 info package.json querystring@0.2.0 querystring is also the name of a node core module.
+752 info package.json querystring@0.2.0 No license field.
+753 info package.json raw-loader@0.5.1 No license field.
+754 info package.json regenerator-transform@0.10.1 license should be a valid SPDX license expression
+755 info package.json repeat-element@1.1.2 license should be a valid SPDX license expression
+756 info package.json regjsparser@0.1.5 license should be a valid SPDX license expression
+757 info package.json replace-ext@0.0.1 No license field.
+758 info package.json ripemd160@0.2.0 No license field.
+759 info package.json script-loader@0.6.1 No license field.
+760 info package.json stdout-stream@1.4.0 No license field.
+761 info package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+762 info package.json timers-browserify@2.0.4 No license field.
+763 info package.json to-array@0.1.4 No license field.
+764 info package.json true-case-path@1.0.2 license should be a valid SPDX license expression
+765 info package.json url@0.11.0 url is also the name of a node core module.
+766 info package.json useragent@2.2.1 license should be a valid SPDX license expression
+767 info package.json util@0.10.3 util is also the name of a node core module.
+768 info package.json whatwg-fetch@0.9.0 No license field.
+769 info package.json webpack-core@0.6.9 No license field.
+770 info package.json xmlhttprequest-ssl@1.5.3 No license field.
+771 info package.json window-size@0.1.0 No license field.
+772 verbose readDependencies loading dependencies from /home/ubuntu/workspace/ReactTimerApp/package.json
+773 silly cache add args [ 'karma-script-launcher', null ]
+774 verbose cache add spec karma-script-launcher
+775 silly cache add parsed spec Result {
+775 silly cache add   raw: 'karma-script-launcher',
+775 silly cache add   scope: null,
+775 silly cache add   name: 'karma-script-launcher',
+775 silly cache add   rawSpec: '',
+775 silly cache add   spec: 'latest',
+775 silly cache add   type: 'tag' }
+776 silly addNamed karma-script-launcher@latest
+777 verbose addNamed "latest" is being treated as a dist-tag for karma-script-launcher
+778 info addNameTag [ 'karma-script-launcher', 'latest' ]
+779 silly mapToRegistry name karma-script-launcher
+780 silly mapToRegistry using default registry
+781 silly mapToRegistry registry https://registry.npmjs.org/
+782 silly mapToRegistry data Result {
+782 silly mapToRegistry   raw: 'karma-script-launcher',
+782 silly mapToRegistry   scope: null,
+782 silly mapToRegistry   name: 'karma-script-launcher',
+782 silly mapToRegistry   rawSpec: '',
+782 silly mapToRegistry   spec: 'latest',
+782 silly mapToRegistry   type: 'tag' }
+783 silly mapToRegistry uri https://registry.npmjs.org/karma-script-launcher
+784 verbose addNameTag registry:https://registry.npmjs.org/karma-script-launcher not in flight; fetching
+785 verbose request uri https://registry.npmjs.org/karma-script-launcher
+786 verbose request no auth needed
+787 info attempt registry request try #1 at 1:52:45 PM
+788 verbose request id f1fbc08de01d010f
+789 http request GET https://registry.npmjs.org/karma-script-launcher
+790 http 200 https://registry.npmjs.org/karma-script-launcher
+791 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+791 verbose headers   server: 'UploadServer',
+791 verbose headers   'cache-control': 'max-age=300',
+791 verbose headers   'last-modified': 'Wed, 4 May 2016 2:26:23 GMT',
+791 verbose headers   etag: '"57295dcf-26a8"',
+791 verbose headers   'content-encoding': 'gzip',
+791 verbose headers   'content-length': '2040',
+791 verbose headers   'accept-ranges': 'bytes',
+791 verbose headers   date: 'Wed, 13 Dec 2017 13:52:45 GMT',
+791 verbose headers   via: '1.1 varnish',
+791 verbose headers   age: '14295',
+791 verbose headers   connection: 'keep-alive',
+791 verbose headers   'x-served-by': 'cache-cdg8734-CDG',
+791 verbose headers   'x-cache': 'HIT',
+791 verbose headers   'x-cache-hits': '1',
+791 verbose headers   'x-timer': 'S1513173165.351460,VS0,VE1',
+791 verbose headers   vary: 'Accept-Encoding, Accept' }
+792 silly get cb [ 200,
+792 silly get   { 'content-type': 'application/json; charset=UTF-8',
+792 silly get     server: 'UploadServer',
+792 silly get     'cache-control': 'max-age=300',
+792 silly get     'last-modified': 'Wed, 4 May 2016 2:26:23 GMT',
+792 silly get     etag: '"57295dcf-26a8"',
+792 silly get     'content-encoding': 'gzip',
+792 silly get     'content-length': '2040',
+792 silly get     'accept-ranges': 'bytes',
+792 silly get     date: 'Wed, 13 Dec 2017 13:52:45 GMT',
+792 silly get     via: '1.1 varnish',
+792 silly get     age: '14295',
+792 silly get     connection: 'keep-alive',
+792 silly get     'x-served-by': 'cache-cdg8734-CDG',
+792 silly get     'x-cache': 'HIT',
+792 silly get     'x-cache-hits': '1',
+792 silly get     'x-timer': 'S1513173165.351460,VS0,VE1',
+792 silly get     vary: 'Accept-Encoding, Accept' } ]
+793 verbose get saving karma-script-launcher to /home/ubuntu/.npm/registry.npmjs.org/karma-script-launcher/.cache.json
+794 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+795 silly addNameTag next cb for karma-script-launcher with tag latest
+796 silly addNamed karma-script-launcher@1.0.0
+797 verbose addNamed "1.0.0" is a plain semver version for karma-script-launcher
+798 silly mapToRegistry name karma-script-launcher
+799 silly mapToRegistry using default registry
+800 silly mapToRegistry registry https://registry.npmjs.org/
+801 silly mapToRegistry data Result {
+801 silly mapToRegistry   raw: 'karma-script-launcher',
+801 silly mapToRegistry   scope: null,
+801 silly mapToRegistry   name: 'karma-script-launcher',
+801 silly mapToRegistry   rawSpec: '',
+801 silly mapToRegistry   spec: 'latest',
+801 silly mapToRegistry   type: 'tag' }
+802 silly mapToRegistry uri https://registry.npmjs.org/karma-script-launcher
+803 verbose addRemoteTarball https://registry.npmjs.org/karma-script-launcher/-/karma-script-launcher-1.0.0.tgz not in flight; adding
+804 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-script-launcher/-/karma-script-launcher-1.0.0.tgz',
+804 verbose addRemoteTarball   'cd017c4de5ef09e5a9da793276176108dd4b542d' ]
+805 info retry fetch attempt 1 at 1:52:45 PM
+806 info attempt registry request try #1 at 1:52:45 PM
+807 http fetch GET https://registry.npmjs.org/karma-script-launcher/-/karma-script-launcher-1.0.0.tgz
+808 http fetch 200 https://registry.npmjs.org/karma-script-launcher/-/karma-script-launcher-1.0.0.tgz
+809 silly fetchAndShaCheck shasum cd017c4de5ef09e5a9da793276176108dd4b542d
+810 verbose addTmpTarball /tmp/npm-4710-43a9d695/registry.npmjs.org/karma-script-launcher/-/karma-script-launcher-1.0.0.tgz not in flight; adding
+811 verbose addTmpTarball already have metadata; skipping unpack for karma-script-launcher@1.0.0
+812 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+813 silly cache afterAdd karma-script-launcher@1.0.0
+814 verbose afterAdd /home/ubuntu/.npm/karma-script-launcher/1.0.0/package/package.json not in flight; writing
+815 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+816 verbose afterAdd /home/ubuntu/.npm/karma-script-launcher/1.0.0/package/package.json written
+817 silly install resolved [ { name: 'karma-script-launcher',
+817 silly install resolved     version: '1.0.0',
+817 silly install resolved     description: 'A Karma plugin. Launcher for shell scripts.',
+817 silly install resolved     main: 'index.js',
+817 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+817 silly install resolved     repository:
+817 silly install resolved      { type: 'git',
+817 silly install resolved        url: 'git://github.com/karma-runner/karma-script-launcher.git' },
+817 silly install resolved     keywords: [ 'karma-plugin', 'karma-launcher', 'script' ],
+817 silly install resolved     author: { name: 'Vojta Jina', email: 'vojta.jina@gmail.com' },
+817 silly install resolved     dependencies: {},
+817 silly install resolved     peerDependencies: { karma: '>=0.9' },
+817 silly install resolved     license: 'MIT',
+817 silly install resolved     devDependencies:
+817 silly install resolved      { eslint: '^2.2.0',
+817 silly install resolved        'eslint-config-standard': '^5.1.0',
+817 silly install resolved        'eslint-plugin-promise': '^1.1.0',
+817 silly install resolved        'eslint-plugin-standard': '^1.3.2',
+817 silly install resolved        grunt: '~0.4.1',
+817 silly install resolved        'grunt-auto-release': '~0.0.2',
+817 silly install resolved        'grunt-bump': '~0.7.0',
+817 silly install resolved        'grunt-conventional-changelog': '^6.1.0',
+817 silly install resolved        'grunt-conventional-github-releaser': '^1.0.0',
+817 silly install resolved        'grunt-eslint': '^18.0.0',
+817 silly install resolved        'grunt-npm': '~0.0.2',
+817 silly install resolved        'load-grunt-tasks': '^3.4.1' },
+817 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+817 silly install resolved     gitHead: 'a501ba571a08f13346218900f50f844c967d650d',
+817 silly install resolved     bugs: { url: 'https://github.com/karma-runner/karma-script-launcher/issues' },
+817 silly install resolved     homepage: 'https://github.com/karma-runner/karma-script-launcher#readme',
+817 silly install resolved     _id: 'karma-script-launcher@1.0.0',
+817 silly install resolved     _shasum: 'cd017c4de5ef09e5a9da793276176108dd4b542d',
+817 silly install resolved     _from: 'karma-script-launcher@latest',
+817 silly install resolved     _npmVersion: '2.14.12',
+817 silly install resolved     _nodeVersion: '4.3.0',
+817 silly install resolved     _npmUser: { name: 'zzo', email: 'mark@zzo.com' },
+817 silly install resolved     dist:
+817 silly install resolved      { shasum: 'cd017c4de5ef09e5a9da793276176108dd4b542d',
+817 silly install resolved        tarball: 'https://registry.npmjs.org/karma-script-launcher/-/karma-script-launcher-1.0.0.tgz' },
+817 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+817 silly install resolved     _npmOperationalInternal:
+817 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+817 silly install resolved        tmp: 'tmp/karma-script-launcher-1.0.0.tgz_1462328780690_0.5775484465993941' },
+817 silly install resolved     directories: {},
+817 silly install resolved     _resolved: 'https://registry.npmjs.org/karma-script-launcher/-/karma-script-launcher-1.0.0.tgz' } ]
+818 info install karma-script-launcher@1.0.0 into /home/ubuntu/workspace/ReactTimerApp
+819 info installOne karma-script-launcher@1.0.0
+820 verbose installOne of karma-script-launcher to /home/ubuntu/workspace/ReactTimerApp not in flight; installing
+821 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+822 verbose lock using /home/ubuntu/.npm/_locks/karma-script-launcher-4de9668a6afd8bee.lock for /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-script-launcher
+823 silly install write writing karma-script-launcher 1.0.0 to /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-script-launcher
+824 verbose unbuild node_modules/karma-script-launcher
+825 silly gentlyRm /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-script-launcher is being purged from base /home/ubuntu/workspace/ReactTimerApp
+826 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-script-launcher
+827 verbose tar unpack /home/ubuntu/.npm/karma-script-launcher/1.0.0/package.tgz
+828 verbose tar unpacking to /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-script-launcher
+829 silly gentlyRm /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-script-launcher is being purged
+830 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-script-launcher
+831 silly gunzTarPerm modes [ '755', '644' ]
+832 silly gunzTarPerm extractEntry package.json
+833 silly gunzTarPerm extractEntry README.md
+834 silly gunzTarPerm extractEntry LICENSE
+835 silly gunzTarPerm extractEntry gruntfile.js
+836 silly gunzTarPerm extractEntry index.js
+837 silly gunzTarPerm extractEntry CHANGELOG.md
+838 verbose write writing to /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-script-launcher/package.json
+839 info preinstall karma-script-launcher@1.0.0
+840 verbose readDependencies loading dependencies from /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-script-launcher/package.json
+841 verbose readDependencies loading dependencies from /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-script-launcher/package.json
+842 silly install resolved []
+843 verbose about to build /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-script-launcher
+844 info build /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-script-launcher
+845 info linkStuff karma-script-launcher@1.0.0
+846 silly linkStuff karma-script-launcher@1.0.0 has /home/ubuntu/workspace/ReactTimerApp/node_modules as its parent node_modules
+847 verbose linkBins karma-script-launcher@1.0.0
+848 verbose linkMans karma-script-launcher@1.0.0
+849 verbose rebuildBundles karma-script-launcher@1.0.0
+850 info install karma-script-launcher@1.0.0
+851 info postinstall karma-script-launcher@1.0.0
+852 verbose unlock done using /home/ubuntu/.npm/_locks/karma-script-launcher-4de9668a6afd8bee.lock for /home/ubuntu/workspace/ReactTimerApp/node_modules/karma-script-launcher
+853 verbose validateInstall loading /home/ubuntu/workspace/ReactTimerApp/package.json for validation
+854 verbose stack Error: The package webpack@1.15.0 does not satisfy its siblings' peerDependencies requirements!
+854 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/lib/install.js:125:32
+854 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/lib/install.js:268:7
+854 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+854 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+854 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+854 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+854 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+854 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+854 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+854 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+855 verbose cwd /home/ubuntu/workspace/ReactTimerApp
+856 error Linux 4.9.17-c9
+857 error argv "/home/ubuntu/.nvm/versions/node/v4.5.0/bin/node" "/home/ubuntu/.nvm/versions/node/v4.5.0/bin/npm" "install" "karma-script-launcher" "--save-dev"
+858 error node v4.5.0
+859 error npm  v2.15.9
+860 error code EPEERINVALID
+861 error peerinvalid The package webpack@1.15.0 does not satisfy its siblings' peerDependencies requirements!
+861 error peerinvalid Peer babel-loader@6.4.1 wants webpack@1 || 2 || ^2.1.0-beta || ^2.2.0-rc
+861 error peerinvalid Peer karma-webpack@1.8.1 wants webpack@^1.1.0 || ^2 || ^2.1.0-beta || ^2.2.0-rc
+861 error peerinvalid Peer sass-loader@6.0.6 wants webpack@^2.0.0 || >= 3.0.0-rc.0 || ^3.0.0
+861 error peerinvalid Peer webpack-dev-middleware@1.12.2 wants webpack@^1.0.0 || ^2.0.0 || ^3.0.0
+862 verbose exit [ 1, true ]
