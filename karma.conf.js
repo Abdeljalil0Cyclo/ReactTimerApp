@@ -1,7 +1,7 @@
 var webpackConfig = require('webpack');
 module.exports=function(config){
 config.set({
-    browsers: ['PhantomJS'],
+    browsers :['jsdom'],
     singleRun :true,
     frameworks:['mocha'],
     files :['app/tests/**/*.test.jsx'],
